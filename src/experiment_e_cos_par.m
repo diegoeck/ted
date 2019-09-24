@@ -85,6 +85,9 @@ l=newlmi;
 lmiterm([l,1,1,r(1)],1,1);
 lmiterm([l,1,1,0],-energia);
 
+l=newlmi;   
+lmiterm([l,1,1,r(1)],-1,1);
+lmiterm([l,1,1,0],energia*0.99);
 
 
 LMIS=getlmis;
